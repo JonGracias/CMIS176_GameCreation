@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+	<head>
+        <meta charset="UTF-8">
+        <title>wordGame.html</title>
+        <link rel = "stylesheet"
+                type="text/css"
+                href= "form.css" />
+        <script type = "text/javascript"
+                src="word.js"></script>
+    </head>
+    
+	<body>
+                <h1>Fun Madlib</h1>
+        <form>
+        
+        <label for="txtOne">1. animal </label>
+            <input type="text"
+                    id="txtOne"/>
+        <label for="txtTwo">2. noun </label>
+            <input type="text"
+                    id="txtTwo"/>
+        <label for="txtThree">3. adjective </label>
+            <input type="text"
+                    id="txtThree"/>
+        <label for="txtFour">4. different animal </label>
+            <input type="text"
+                    id="txtFour"/>
+        <label for="txtFive">5. food item </label>
+            <input type="text"
+                    id="txtFive"/>
+        <label for="txtSix">6. adjective </label>
+            <input type="text"
+                    id="txtSix"/>
+       
+        <button type = "button" onclick="word()">submit</button>
+        
+        </form>
+        <div id = container>
+            <div id = firstSentence>Once there was a/an _____ .</div>
+            <div id = secondSentence>He lived in a/an _____ .</div>
+            <div id = thirdSentence>The _____ felt bad for the _____ _____.</div>
+            <div id = fourthSentence>So he gave him a/an _____ .</div>
+            <div id = fifthSentence>That made the _____ very _____.</div>
+        </div>
+	</body>
+</html>

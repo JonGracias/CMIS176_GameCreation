@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+
+@font-face {
+    font-family: retro;
+    src: url(NEONLEDLight.ttf);
+}
+
+body {
+    background: black;
+    color: blanchedalmond;
+    text-align: center;
+    width: auto;
+    margin: 10px;
+    border: solid gainsboro;
+    
+}
+
+div {
+    border: solid gainsboro;
+    padding: 5px;
+    
+   
+}
+
+#container {
+    display:grid;
+    gap: 1em;
+    grid-template-columns: 1fr 50%;
+    width: 600px;
+    margin: auto;
+    background-color: black;
+
+}
+
+#lblOutput {
+    width: 600px;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: black;
+    
+ 
+}
+
+button {
+    padding: 10px;
+    width: 80%;
+    margin: auto;
+}
+
+form {
+    display: block;
+    border: solid gainsboro;
+    width: 610px;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: black;
+    
+}
+
+#c {
+    display: block;
+    width: 610px;
+    height: 500px;
+    margin: auto;
+
+    padding-top: 10px;
+    border: solid gainsboro;
+    color: blanchedalmond;
+    background-color: black;
+
+}
+
+#txtInput {
+    margin-bottom: 10px;
+    border:solid greenyellow;
+    padding: 10px;
+    width: 70%;
+    text-align: center;
+    
+}
+
+#mathInput1 {
+    margin: auto;
+    margin-right: 20px;
+    border:solid greenyellow;
+    padding: 10px;
+    width: 20%;
+    text-align: center;
+   
+
+}
+
+#mathInput2 {
+    margin-bottom: 10px;
+    margin-left: 20px;
+    border:solid greenyellow;
+    padding: 10px;
+    width: 20%;
+    text-align: center;
+  
+
+}
+
+#computer {
+    display: block;
+    width: 600px;
+    height: 500px;
+    margin: auto;
+    padding-top: 10px;
+    background-color: black;
+    background-image: url("falloutScreen.jpg");
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(92, 207, 92);
+    text-shadow: -1px 0 rgb(29, 37, 29), 0 1px hsla(122, 29%, 20%, 0.897), 1px 0 hsla(123, 29%, 50%, 0.63), 0 -1px black;
+    border: solid gainsboro;
+    font-size: 5vw;
+   
+
+}
+
+#titleMath {
+
+    border: solid rgb(92, 207, 92);;
+    width: 350px;
+    height: 50px;
+    margin: auto;
+    margin-bottom: 20px;
+    font-size: 5vw;
+    font-family: retro;
+    padding-top: 10px;
+    color: rgb(215, 102, 0);
+    
+
+}
+
+#mathOutput {
+    border: solid rgb(92, 207, 92);;
+    width: 200px;
+    height: 100px;
+    margin: auto;
+    margin-bottom: 20px;
+    font-size: 5vw;
+   
+}
+
+
+#resultMath1 {
+    border: solid rgb(92, 207, 92);
+    width: 200px;
+    height: 100px;
+    margin: auto;
+    margin-bottom: 20px;
+    font-size: 10vw;
+    
+}
+
+#resultMath2 {
+    border: solid rgb(92, 207, 92);
+    width: 200px;
+    height: 100px;
+    margin: auto;
+    margin-bottom: 20px;
+    font-size: 10vw;
+   
+}
+
+#message {
+    border: solid rgb(92, 207, 92);
+    width: 420px;
+    height: 350px;
+    margin: auto;
+    margin-top: 40px;
+    font-size: 10vw;
+    text-align: center;
+    margin-bottom: 10px;
+    
+   
+}
+
+#morph {
+    border: none;
+}

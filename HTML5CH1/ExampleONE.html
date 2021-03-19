@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+	<head>
+		<meta charset="UTF-8">
+        <script>
+            function newPerson() {
+                var newP = document.getElementById("txtPerson");
+                var output = document.getElementById("whoPasses");
+                
+                var peep = newP.value;
+                var personPassing = "Who passed Sell's class? " + peep + "! That's who!";
+                
+                output.innerHTML = personPassing;
+            }
+        
+        </script>
+
+	</head>
+	<body>
+        
+        <h1> We are going to change the person</h1>
+        
+        <form>
+            <label>Person</label>
+            <input type="text" id="txtPerson" />
+            </br>
+            </br>
+            <button onclick="newPerson()" type="button"> Change Person</button>
+        
+        </form>
+
+        <div id="whoPasses">
+
+        </div>
+
+		
+	</body>
+</html>
