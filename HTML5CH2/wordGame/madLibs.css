@@ -1,126 +1,40 @@
-*{
-    margin: 0;
-    padding: 0;
-  }
+/*Jonathan Gracias
+  tellStory.js
+  03/22/2021
+  The madLibs.css file supplys the formatting rules for MadLibs.html*/
 
-@font-face {
-    font-family: retro;
-    src: url(NEONLEDLight.ttf);
-}
+/* Keeps the body in correct spacing*/
+* {margin:0; padding:0;}
+
+/* adds the custom font */
+@font-face {font-family:retro; src:url(NEONLEDLight.ttf);}
 /*Track*/
-::-webkit-scrollbar {
-    background:green;
-}
+::-webkit-scrollbar {background:green;}
 
 /* Handle */
-::-webkit-scrollbar-thumb {
-    background:greenyellow; 
-}
+::-webkit-scrollbar-thumb {background:#adff2f;}
 
 /* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-    background:rgb(121, 180, 33); 
+::-webkit-scrollbar-thumb:hover {background:rgb(121, 180, 33);}
+
+body {background:#000; color:#ffebcd; text-align:center; margin:10px; width:fit-content; border:solid #dcdcdc;}
+
+h1 {border:solid #dcdcdc; padding:5px; font-family:retro; color:rgb(190, 125, 26);}
+
+label {border:solid #dcdcdc; width:80%; float:left; clear:left; text-align:justify; padding-right:1em; padding-left:5em; margin:1px; background-color:#000;}
+
+fieldset {grid-template-columns:1fr 50%; display:grid; width:99%; margin-left:auto; margin-right:auto; border:solid #dcdcdc; color:#ffebcd; background-color:#000;
 }
 
-body {
-    background: black;
-    color: blanchedalmond;
-    text-align: center;
-    margin: 10px;
-    width: fit-content;
-    border: solid gainsboro;
-    
+div {display:block; width:462px; height:240px; margin:auto; padding-top:10px; background-color:#000; background-image:url("falloutScreen.png"); font-family:'Courier New',Courier,monospace; color:rgb(92, 207, 92); text-shadow:-1px 0 rgb(29, 37, 29),0 1px hsla(122, 29%, 20%, 0.897),1px 0 hsla(123, 29%, 50%, 0.63),0 -1px #000; border:solid #dcdcdc; font-size:5vw;
 }
 
-h1 {
-    border: solid gainsboro;
-    padding: 5px;
-    font-family: retro;
-    color: rgb(190, 125, 26);
- 
+#output {display:inline-block; border:solid rgb(92, 207, 92); width:fit-content; height:fit-content; max-width:80%; max-height:80%; margin:auto; overflow-x:hidden; margin-top:10px; text-align:center; margin-bottom:10px; word-wrap:break-word; background:rgba(0, 0, 0, 0);}
+
+input {margin:1px; float:left; border:solid #dcdcdc; width:99%; text-align:center;
 }
 
-
-label {
-  
-    border: solid gainsboro;
-    width: 80%;
-    float: left;
-    clear:left;
-    text-align: justify;
-    padding-right: 1em;
-    padding-left: 5em;
-    margin: 1px;
-    background-color: black;
-    
-    
-}
-
-fieldset {
-    grid-template-columns: 1fr 50%;
-    display: grid;
-    width: 99%;
-    margin-left: auto;
-    margin-right: auto;
-    border: solid gainsboro;
-    color: blanchedalmond;
-    background-color: black;
-
-}
-
-
-div {
-    display: block;
-    width: 462px;
-    height: 240px;
-    margin: auto;
-    padding-top: 10px;
-    background-color: black;
-    background-image: url("falloutScreen.png");
-    font-family: 'Courier New', Courier, monospace;
-    color: rgb(92, 207, 92);
-    text-shadow: -1px 0 rgb(29, 37, 29), 0 1px hsla(122, 29%, 20%, 0.897), 1px 0 hsla(123, 29%, 50%, 0.63), 0 -1px black;
-    border: solid gainsboro;
-    font-size: 5vw;
-   
-
-}
-
-#output {
-    display: inline-block;
-    border: solid rgb(92, 207, 92);
-    width: fit-content; 
-    height: fit-content;
-    max-width: 80%;
-    max-height: 80%;
-    margin: auto;
-    overflow: scroll;
-    overflow-x: hidden;
-    margin-top: 10px;
-    text-align: center;
-    margin-bottom: 10px;
-    word-wrap: break-word;
-    background: rgba(0, 0, 0, 0);
-    
-
-}
-
-input {
-    margin: 1px;
-    float: left;
-    border:solid gainsboro;
-    width: 99%;
-    text-align: center;
-   
-
-}
-
-
-button {
-    padding: 10px;
-    width: 100%;
-    border: solid gainsboro;
-}
+button {padding:10px; width:100%; border:solid #dcdcdc;}
 
 
 
