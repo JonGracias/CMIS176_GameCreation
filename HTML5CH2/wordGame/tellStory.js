@@ -11,7 +11,7 @@
 
 
 function tellStory() {
-    //gather form elements
+    //gather form elements    
     var txtCharacter = document.getElementById("txtCharacter");
     var txtWeapon = document.getElementById("txtWeapon");
     var txtAdjective = document.getElementById("txtAdjective");
