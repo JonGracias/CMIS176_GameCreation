@@ -7,8 +7,18 @@
         {
             "type": "pwa-chrome",
             "request": "launch",
+            "name": "open ArrayDemo.html",
+            "file": "C:/Users/jongr/OneDrive/Desktop/SpringSemester21/CMIS176_GameCreation/HTML5CH4/ArrayDemo.html"
+        },
+        
+
+        {
+            "type": "pwa-chrome",
+            "request": "launch",
             "name": "Open ArrayDemo.html",
             "file": "/Users/AGracias/Desktop/SpringSemester21/CMIS176_GameCreation/HTML5CH4/ArrayDemo.html"
         }
+
+        
     ]
 }
