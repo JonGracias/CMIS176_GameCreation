@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  margin: 0 auto;
+}
+html {
+  min-height: 100%;
+  background-image: url(res/greenTable.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border: solid white;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container {
+  position: relative;
+  top: 35px;
+  right: 100px;
+  width: 200px;
+  height: 95vh;
+  margin: auto;
+  background: none;
+  text-align: center;
+}
+
+.message {
+  position: relative;
+  top: 0;
+  width: 100%;
+  height: 25%;
+  margin-top: auto;
+  text-align: center;
+  padding-top: 15em;
+  padding-bottom: 5em;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.233);
+  border: solid green;
+  text-align: center;
+}
+
+#escore{
+  position: absolute;
+  top: 50px;
+  font-size: 25px;
+}
+
+#pscore{
+  position: absolute;
+  top: 150px;
+  font-size: 25px;
+}
+
+#result{
+  position: absolute;
+  top: 250px;
+  font-size: 25px;
+}
+
+#btns{
+  position: absolute;
+  bottom: 50px;
+  width: 200px;
+}
+
+button {
+  margin-top: 20px;
+  width: 80%;
+  margin: auto;
+  padding: 1em;
+}
+
+button:hover {
+  background-color:hotpink;
+}
+
+#inst {
+  margin: 0 auto;
+  padding: 2em;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  width: fit-content;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+  background: none;
+  color: #ffebcd;
+  
+}
+
+.battleArena {
+  position: relative;
+  height: 95vh;
+  width: 185px;
+  display: grid;
+  
+}
+
+.enemy {
+  position: absolute;
+  top: 0;
+  left: 100px;
+  width: 180px;
+  height: 245px;
+  background: none;
+  margin: auto;
+  padding-top: 10px;
+}
+
+.player {
+  position: absolute;
+  bottom: 75px;
+  left: 100px;
+  margin: auto;
+  width: 180px;
+  height: 245px;
+  background: none;
+  padding-top: 5px;
+  margin-bottom: 10px;
+}
+
+/* THE CARD HOLDS THE FRONT AND BACK FACES */
+.thecard {
+  top: 0;
+  left: 0;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 0.8s ease;
+  border-radius: 10px;
+}
+
+/* THE PSUEDO CLASS CONTROLS THE FLIP ON CLICK*/
+.thecard.flip {
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+}
+
+/* THE FRONT FACE OF THE CARD, WHICH SHOWS BY DEFAULT */
+.thefront {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: auto;
+  height: auto;
+  backface-visibility: hidden;
+  overflow: hidden;
+  border-radius: 10px;
+  color: #000;
+  margin: auto;
+}
+
+/* THE BACK FACE OF THE CARD, WHICH SHOWS ON CLICK */
+.theback {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: auto;
+  height: auto;
+  backface-visibility: hidden;
+  overflow: hidden;
+  border-radius: 10px;
+  color: #333;
+  transform: rotateY(180deg);
+  margin: 0 auto;
+}
