@@ -1,6 +1,17 @@
+/*Jonathan Gracias
+  warGame.js
+  04/05/2021
+  The css for the project. It includes an added font-family handles the flip action of the card by using 2 classes 
+  for each card. .thecard sets the animation area and the .thecard.flip actually performs the animation with a transform: rotateY(180deg); */
+  
 * {
   margin: 0;
   padding: 0;
+}
+
+@font-face {
+  font-family: vegas;
+  src: url(res/LOUNB___.TTF);
 }
 
 html {
@@ -50,27 +61,27 @@ body {
   text-align: center;
 }
 
-#escore{
+#escore {
   position: absolute;
   top: 50px;
   font-size: 25px;
 }
 
-#pscore{
+#pscore {
   position: absolute;
   top: 150px;
   font-size: 25px;
 }
 
-#result{
+#result {
   position: absolute;
   top: 250px;
   font-size: 25px;
 }
 
-#btns{
+#btns {
   position: absolute;
-  bottom: 50px;
+  bottom: 20px;
   width: 200px;
 }
 
@@ -79,10 +90,12 @@ button {
   width: 80%;
   margin: auto;
   padding: 1em;
+  font-family: vegas;
+  font-size: 18px;
 }
 
 button:hover {
-  background-color:hotpink;
+  background-color: hotpink;
 }
 
 #inst {
@@ -99,7 +112,6 @@ button:hover {
   text-align: center;
   background: none;
   color: #ffebcd;
-  
 }
 
 .battleArena {
@@ -107,7 +119,6 @@ button:hover {
   height: 95vh;
   width: 185px;
   display: grid;
-  
 }
 
 .enemy {
