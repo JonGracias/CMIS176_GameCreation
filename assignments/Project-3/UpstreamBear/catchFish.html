@@ -1,0 +1,32 @@
+<!--Jonathan Gracias
+    catchFish.html
+    04/19/2021
+    This file holds the html for the Upstream Bear. It inlcudes all the dives 
+    and two buttons, one thaat calls init() and one for reset().-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>catchFish.html</title>
+    <script type="text/javascript" src="simpleGame.js"></script>
+    <script type="text/javascript" src="streamLib.js"></script>
+    <script type="text/javascript" src="bearFish.js"></script>
+</head>
+
+<body>
+    <div id="scoreBoard">Hits: 0</div>
+    <div id = "stat">
+        <button type = "button"
+                onclick = "init()">
+            Start
+            </button>
+    </div>
+    <div id = "reset">
+        <button type = "button"
+                onclick = "restart()">
+            Play again
+            </button>
+    </div>
+</body>
+</html>

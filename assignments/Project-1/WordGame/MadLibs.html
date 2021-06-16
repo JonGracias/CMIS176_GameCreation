@@ -1,0 +1,52 @@
+<!--Jonathan Gracias
+  tellStory.js
+  03/22/2021
+  This is the html file that builds the web page assigns the 
+  elements and executes any javascript nessecary-->
+
+<!DOCTYPE HTML>
+<html lang="en-US">
+
+<head>
+        <meta charset="UTF-8">
+        <title>wordGame.html</title>
+        <link rel="stylesheet" type="text/css" href="madLibs.css" />
+        <script type="text/javascript" src="tellStory.js"></script>
+
+</head>
+
+<body>
+        <h1>Space MadLib</h1>
+        <div id="computer">
+
+                <span id="output"></span>
+
+        </div>
+        <form action=" ">
+                <h1>Choose your...</h1>
+                <fieldset>
+
+                        <label for="txtCharacter">1. Character </label>
+                        <input type="text" id="txtCharacter" />
+                        <label for="txtCompanion">2. Companion </label>
+                        <input type="text" id="txtCompanion" />
+                        <label for="txtAjective">3. Adjective </label>
+                        <input type="text" id="txtAdjective" />
+                        <label for="txtPronoun">4. Pronoun </label>
+                        <input type="text" id="txtPronoun" />
+                        <label for="txtShip">5. Spaceship </label>
+                        <input type="text" id="txtShip" />
+                        <label for="txtPlanet">6. Planet </label>
+                        <input type="text" id="txtPlanet" />
+                        <label for="txtNoun">7. Noun </label>
+                        <input type="text" id="txtNoun" />
+                        <label for="txtWeapon">8. Weapon </label>
+                        <input type="text" id="txtWeapon" />
+                        <button type="button" onclick="tellStory()">Tell story</button>
+                        <button type="reset" onclick="formReset()">Reset</button>
+                </fieldset>
+        </form>
+
+</body>
+
+</html>

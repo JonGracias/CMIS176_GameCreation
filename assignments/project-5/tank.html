@@ -1,0 +1,42 @@
+<!--
+Jonatan Gracias
+tank.html
+5/11/2021
+1. Improve the other tank - added sprite sheet, custom graphics, and explosion animation
+2. Make enemy artillery - Dragon tank fires firebombs
+3. Change the whole theme - Time travelling military fighting time traveling wizards in mideiviel theme.
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>tank.html</title>
+    <script type="text/javascript" src="simpleGame_tank.js"></script>
+    <script type="text/javascript" src="tank.js"></script>
+    <script type="text/javascript" src="tankLib.js"></script>
+
+</head>
+<body>
+
+    <div id="scoreBoard">Dragon's life: 600</div>
+
+    <div id = "stat">
+        <button type = "button"
+                onclick = "init()">
+            Start
+            </button>
+    </div>
+    <div id = "reset">
+        <button type = "button"
+                onclick = "restart()">
+            Play again
+            </button>
+    </div>
+
+</body>
+</html>
